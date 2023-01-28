@@ -1,0 +1,149 @@
+/* responsive */
+/* max-width - "desktop first";
+ min-width - "mobile first"*/
+/* main breakpoints:
+1024px
+768px
+480px
+320px */
+
+
+
+/* example #1 - ზომების შეცვლა:max-width */
+/* @media (max-width:900px) {
+    .box {
+        width: 150px;
+    }
+    .box:nth-child(4) {
+        display: none;
+    }
+}
+@media (max-width:480px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3) {
+        background-color: coral;
+        width: 80px;
+    }
+} */
+
+
+/* example #1 - ზომების შეცვლა:min-width */
+/* 
+@media (min-width:320px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        background-color:darkorchid;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width:768px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        background-color: yellow;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width:1024px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+    }
+} */
+
+/* example min-width & max-width */
+/* @media (min-width:320px) and (max-width:768px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .box:nth-child(1),
+    .box:nth-child(2),
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        background-color:blue;
+        width: 50px;
+        height: 50px;
+    }
+} */
+
+
+
+/* example#2 - ელემენტების ჩამოგდება - flex-direction */
+/* @media (max-width:1024px) {
+    .block-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        margin-bottom: 50px;
+    }
+
+} */
+
+
+/* example #3 - ელემენტების ჩამოგდება flex-wrap:wrap */
+/* @media (min-width:320px) and (max-width: 768px) {
+    .block-wraper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:769px) {
+    .block-wraper {
+        flex-wrap: nowrap;
+    }
+} */
+
+
+/* example#4 - % ზომები */
+@media (max-width: 1024px) {
+    .box {
+        width: 45%;
+    }
+} 
+
+@media (max-width:480px) {
+    .box {
+        width: 100%;
+    }
+}
+
+
+
+/* image example */
+@media (min-width: 320px) and (max-width:480px) {
+    .image-block {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 481px) and (max-width:1024px) {
+    .image-block {
+        width: 48%;
+        margin-bottom: 50px;
+    }
+}

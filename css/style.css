@@ -1,0 +1,50 @@
+.block-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 200px;
+    height: 200px;
+}
+.box:nth-child(1) {
+    background-color: red;
+}
+.box:nth-child(2) {
+    background-color: blue;
+}
+.box:nth-child(3) {
+    background-color: green;
+}
+.box:nth-child(4) {
+    background-color: yellow;
+}
+
+
+
+/* image example */
+.image-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-block {
+    width: 250px;
+}
+.image {
+    width: 100%;
+}
+
+/* container example */
+.container-block {
+    max-width:1170px;
+    width:60%;
+    margin:0 auto;
+    height:400px;
+    background-color: lightblue; 
+}
+
+.image-test {
+    max-width: 600px;
+    width: 100%;
+}
